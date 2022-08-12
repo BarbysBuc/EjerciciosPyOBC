@@ -57,6 +57,7 @@ while booleano:
             
     elif op == 4:
         print("Ha salido del programa")
+        booleano = False
         time.sleep(5)
         borrarPantalla()
 
@@ -64,5 +65,6 @@ while booleano:
         print("No ha ingresado un valor correcto")
         time.sleep(5)
         borrarPantalla()
-        
+
+
 
