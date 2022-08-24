@@ -10,7 +10,4 @@ clima = weatherJson.pop("main")
 print(clima)
 min = clima["temp_min"]
 max = clima["temp_max"]
-
-
-
 print(f'La temperatura mínima para {city.capitalize()} es {min} ºF y la máxima es {max} ºF')
